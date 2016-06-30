@@ -19,8 +19,9 @@ library
     JWT
 
   build-depends: base >= 4.7 && < 5
-               , jose                  >= 0.4.0.2 && < 0.4.1.0
-               , text                  >= 1.2.2.1 && < 1.2.3.0
+               , jose >= 0.4.0.2 && < 0.4.1.0
+               , lens >= 4.13 && < 5.0
+               , text >= 1.2.2.1 && < 1.2.3.0
 
   default-language:    Haskell2010
 
